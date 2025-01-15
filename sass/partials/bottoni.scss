@@ -1,0 +1,7 @@
+$colorKeys: #0e6cff, #ff8700, #4caf50;
+
+@each $color in $colorKeys {
+  .square-#{$color} {
+    background-color: $color;
+  }
+}

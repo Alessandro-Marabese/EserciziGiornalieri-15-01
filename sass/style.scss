@@ -1,0 +1,41 @@
+@import "./partials/font.scss";
+@import "./partials/animazioni.scss";
+@import "./partials/bottoni.scss";
+@import "./partials/color.scss";
+@import "./partials/mixins.scss";
+@import "./partials/reset.scss";
+@import "./partials/spaziature.scss";
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: $size-2;
+
+  img {
+    max-width: 100%;
+    height: $size-5;
+  }
+
+  nav {
+    ul {
+      li {
+        display: inline-block;
+        padding-right: $size-3;
+        font-size: $size-4;
+      }
+    }
+  }
+}
+
+.hero {
+  background-color: $bghero-color;
+
+  h2 {
+    color: $text-color;
+    font-size: $size-4;
+    width: 70%;
+    margin: auto;
+    padding: $size-2 0;
+  }
+}
