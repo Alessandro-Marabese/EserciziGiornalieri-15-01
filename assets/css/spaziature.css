@@ -1,95 +1,95 @@
-.padding-inline-1 {
+.padding-sm {
   padding: 10px;
 }
 
-.padding-inline-2 {
-  padding: 20px;
-}
-
-.padding-inline-3 {
-  padding: 30px;
-}
-
-.padding-inline-4 {
-  padding: 40px;
-}
-
-.padding-inline-5 {
-  padding: 50px;
-}
-
-.padding-inline-6 {
-  padding: 60px;
-}
-
-.padding-block-1 {
+.margin-sm {
   padding: 10px;
 }
 
-.padding-block-2 {
+.padding-block-sm {
+  padding-block: 10px;
+}
+
+.padding-inline-sm {
+  padding-inline: 10px;
+}
+
+.padding-normal {
   padding: 20px;
 }
 
-.padding-block-3 {
-  padding: 30px;
-}
-
-.padding-block-4 {
-  padding: 40px;
-}
-
-.padding-block-5 {
-  padding: 50px;
-}
-
-.padding-block-6 {
-  padding: 60px;
-}
-
-.margin-inline-1 {
-  padding: 10px;
-}
-
-.margin-inline-2 {
+.margin-normal {
   padding: 20px;
 }
 
-.margin-inline-3 {
+.padding-block-normal {
+  padding-block: 20px;
+}
+
+.padding-inline-normal {
+  padding-inline: 20px;
+}
+
+.padding-md {
   padding: 30px;
 }
 
-.margin-inline-4 {
-  padding: 40px;
-}
-
-.margin-inline-5 {
-  padding: 50px;
-}
-
-.margin-inline-6 {
-  padding: 60px;
-}
-
-.margin-block-1 {
-  padding: 10px;
-}
-
-.margin-block-2 {
-  padding: 20px;
-}
-
-.margin-block-3 {
+.margin-md {
   padding: 30px;
 }
 
-.margin-block-4 {
+.padding-block-md {
+  padding-block: 30px;
+}
+
+.padding-inline-md {
+  padding-inline: 30px;
+}
+
+.padding-lg {
   padding: 40px;
 }
 
-.margin-block-5 {
+.margin-lg {
+  padding: 40px;
+}
+
+.padding-block-lg {
+  padding-block: 40px;
+}
+
+.padding-inline-lg {
+  padding-inline: 40px;
+}
+
+.padding-xl {
   padding: 50px;
 }
 
-.margin-block-6 {
+.margin-xl {
+  padding: 50px;
+}
+
+.padding-block-xl {
+  padding-block: 50px;
+}
+
+.padding-inline-xl {
+  padding-inline: 50px;
+}
+
+.padding-xxl {
   padding: 60px;
+}
+
+.margin-xxl {
+  padding: 60px;
+}
+
+.padding-block-xxl {
+  padding-block: 60px;
+}
+
+.padding-inline-xxl {
+  padding-inline: 60px;
 }/*# sourceMappingURL=spaziature.css.map */

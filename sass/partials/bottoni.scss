@@ -1,7 +1,17 @@
-$colorKeys: #0e6cff, #ff8700, #4caf50;
+$buttons-color: (
+  blue: $blue,
+  orange: $orange,
+  green: $green,
+);
+.btn {
+  color: white;
+  padding: $size-1 $size-3;
+  border: none;
+  border-radius: 10px;
+}
 
-@each $color in $colorKeys {
-  .square-#{$color} {
-    background-color: $color;
+@each $key, $value in $buttons-color {
+  .btn-#{$key} {
+    background-color: $value;
   }
 }

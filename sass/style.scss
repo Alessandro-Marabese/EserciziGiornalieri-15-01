@@ -1,16 +1,31 @@
-@import "./partials/font.scss";
-@import "./partials/animazioni.scss";
-@import "./partials/bottoni.scss";
-@import "./partials/color.scss";
-@import "./partials/mixins.scss";
 @import "./partials/reset.scss";
+@import "./partials/font.scss";
+@import "./partials/color.scss";
+@import "./partials/bottoni.scss";
+@import "./partials/mixins.scss";
+@import "./partials/animazioni.scss";
 @import "./partials/spaziature.scss";
+
+body {
+  font-family: $font-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-serif;
+}
 
 header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding: $size-2;
+  justify-content: space-between;
+  background-color: green;
+  padding-inline: $size-4;
+  color: #f4f4f4;
 
   img {
     max-width: 100%;
@@ -21,8 +36,6 @@ header {
     ul {
       li {
         display: inline-block;
-        padding-right: $size-3;
-        font-size: $size-4;
       }
     }
   }
@@ -30,6 +43,22 @@ header {
 
 .hero {
   background-color: $bghero-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 50px;
+
+  .text-area {
+    max-width: 800px;
+  }
+
+  .img-area {
+    img {
+      max-width: 400px;
+      @include floating(10px, 0 6px 10px rgb(0 0 0 / 10%), 2px solid white);
+    }
+  }
 
   h2 {
     color: $text-color;
@@ -37,5 +66,14 @@ header {
     width: 70%;
     margin: auto;
     padding: $size-2 0;
+  }
+}
+
+.grid {
+  justify-content: center;
+  @include gridSection(6);
+  img {
+    max-width: 100%;
+    @include floating(10px, 0 6px 10px rgb(0 0 0 / 10%));
   }
 }

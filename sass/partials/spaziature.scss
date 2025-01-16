@@ -1,23 +1,24 @@
-@for $i from 1 through 6 {
-  .padding-inline-#{$i} {
-    padding: $i * 10px;
-  }
-}
+$directions: block, inline;
+$breakpointsMap: (
+  sm: 10px,
+  normal: 20px,
+  md: 30px,
+  lg: 40px,
+  xl: 50px,
+  xxl: 60px,
+);
 
-@for $i from 1 through 6 {
-  .padding-block-#{$i} {
-    padding: $i * 10px;
+@each $breakpoint, $value in $breakpointsMap {
+  .padding-#{$breakpoint} {
+    padding: $value;
   }
-}
-
-@for $i from 1 through 6 {
-  .margin-inline-#{$i} {
-    padding: $i * 10px;
+  .margin-#{$breakpoint} {
+    padding: $value;
   }
-}
 
-@for $i from 1 through 6 {
-  .margin-block-#{$i} {
-    padding: $i * 10px;
+  @each $direction in $directions {
+    .padding-#{$direction}-#{$breakpoint} {
+      padding-#{$direction}: $value;
+    }
   }
 }

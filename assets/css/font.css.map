@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"font.css"}
+{"version":3,"sources":["../../sass/partials/font.scss","../../sass/partials/color.scss","font.css"],"names":[],"mappings":"AAiBA;EALE,gBAAA;EACA,mBARO;EASP,iBATO;EAUP,cCdW;ACIb","file":"font.css"}
